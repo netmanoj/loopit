@@ -272,7 +272,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-600">Call Us At</p>
-                    <p className="text-lg text-gray-900">+91 9876543210</p>
+                    <p className="text-lg text-gray-900">+91 9883537221</p>
                   </div>
                 </div>
               </div>

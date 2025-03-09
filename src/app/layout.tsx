@@ -44,7 +44,7 @@ export default function RootLayout({
               <div>
                 <h3 className="text-xl font-bold mb-4">Loopit</h3>
                 <p className="text-gray-400">
-                  Revolutionizing sustainable packaging and ESG tracking solutions.
+                  Revolutionizing sustainable furniture and ESG tracking solutions.
                 </p>
               </div>
               <div>
