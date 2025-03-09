@@ -114,7 +114,7 @@ export default function Home() {
                 Shop Now
               </Link>
               <Link 
-                href="#why-choose-us" 
+                href="/about" 
                 className="w-full sm:w-auto text-center bg-white border-2 border-green-500 text-green-600 hover:text-green-700 hover:border-green-600 px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:shadow-lg hover:scale-105"
               >
                 Learn More

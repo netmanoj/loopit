@@ -33,7 +33,7 @@ export default function About() {
               
               <div className="space-y-6 text-gray-600">
                 <p>
-                  Loopit is a pioneering force in sustainable furniture manifacturing and ESG solutions. We combine
+                  Loopit is a pioneering force in sustainable furniture manufacturing and ESG solutions. We combine
                   innovative technology with environmental consciousness to create products and services
                   that make a real difference.
                 </p>
