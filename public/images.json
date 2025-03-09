@@ -1,0 +1,30 @@
+{
+  "required_images": [
+    {
+      "filename": "hero-cardboard.jpg",
+      "description": "Hero image showing sustainable cardboard furniture in a modern setting",
+      "suggested_source": "Unsplash or similar free stock photo site"
+    },
+    {
+      "filename": "cardboard-bed.jpg",
+      "description": "Image of an eco-friendly cardboard bed design",
+      "suggested_source": "Unsplash or similar free stock photo site"
+    },
+    {
+      "filename": "carbon-tracking.jpg",
+      "description": "Illustration or photo representing carbon footprint tracking",
+      "suggested_source": "Unsplash or similar free stock photo site"
+    },
+    {
+      "filename": "waste-management.jpg",
+      "description": "Image showing sustainable waste management practices",
+      "suggested_source": "Unsplash or similar free stock photo site"
+    },
+    {
+      "filename": "dashboard-preview.jpg",
+      "description": "Screenshot or mockup of the ESG tracking dashboard",
+      "suggested_source": "Create a mockup using design tools"
+    }
+  ],
+  "note": "Please ensure all images are properly licensed for commercial use. Recommended image dimensions: Hero image (1920x1080px), Feature images (800x600px), Dashboard preview (1200x800px)"
+} 
