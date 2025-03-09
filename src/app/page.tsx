@@ -34,6 +34,7 @@ export default function Home() {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
+              <Link href="/about" className="text-gray-600 hover:text-green-600 transition-colors">About Us</Link>
               <Link href="#products" className="text-gray-600 hover:text-green-600 transition-colors">Products</Link>
               <Link href="#esg-platform" className="text-gray-600 hover:text-green-600 transition-colors">ESG Platform</Link>
               <Link href="/contact" className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition-all duration-300 hover:scale-105">
@@ -56,6 +57,7 @@ export default function Home() {
           {isMenuOpen && (
             <div className="md:hidden py-4">
               <div className="flex flex-col space-y-4">
+                <Link href="/about" className="text-gray-600 hover:text-green-600 transition-colors">About Us</Link>
                 <Link href="#products" className="text-gray-600 hover:text-green-600 transition-colors">Products</Link>
                 <Link href="#esg-platform" className="text-gray-600 hover:text-green-600 transition-colors">ESG Platform</Link>
                 <Link href="/contact" className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition-all duration-300 inline-block text-center">
