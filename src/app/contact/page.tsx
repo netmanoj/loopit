@@ -1,7 +1,6 @@
 'use client';
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -232,7 +231,7 @@ export default function Contact() {
 
               {submitStatus === 'success' && (
                 <div className="p-4 bg-green-50 text-green-700 rounded-xl text-center">
-                  Thank you! We'll get back to you soon.
+                  Thank you! We&apos;ll get back to you soon.
                 </div>
               )}
 

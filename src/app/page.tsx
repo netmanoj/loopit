@@ -6,19 +6,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 export default function Home() {
-  const heroImages = ['/bed1.webp', '/bed2.jpg'];
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => 
-        prevIndex === heroImages.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 5000);
-
-    return () => clearInterval(timer);
-  }, [heroImages.length]);
 
   const fadeInUp = {
     initial: { opacity: 0, y: 20 },
@@ -449,7 +437,7 @@ export default function Home() {
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-green-100 rounded-full filter blur-3xl opacity-30"></div>
               <div className="relative z-10">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600">
-                  Let's Build a Sustainable Future Together
+                  Let&apos;s Build a Sustainable Future Together
                 </h2>
                 <p className="text-lg sm:text-xl text-gray-600 mb-6 md:mb-8">
                   Ready to transform your business with eco-friendly solutions? Our team is here to guide you through every step.
