@@ -76,7 +76,7 @@ export default function Home() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-4 py-12 md:py-20">
+      <section className="relative min-h-screen flex items-center justify-center px-4 pt-24 pb-12 md:py-20">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
@@ -220,7 +220,7 @@ export default function Home() {
               <h3 className="text-lg font-semibold mb-2 text-gray-800 group-hover:text-purple-600 transition-colors duration-300">Corporate Solutions</h3>
               <p className="text-gray-700">We&apos;re committed to sustainability</p>
             </motion.div>
-          </div>
+        </div>
         </motion.div>
       </section>
 
@@ -318,7 +318,7 @@ export default function Home() {
             >
               <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-blue-500/10 group-hover:opacity-0 transition-opacity duration-300"></div>
-                <Image
+          <Image
                   src="/saas.png"
                   alt="ESG Dashboard Preview"
                   fill
@@ -390,7 +390,7 @@ export default function Home() {
               className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="h-48 sm:h-64 relative">
-                <Image
+          <Image
                   src="/bed2.jpg"
                   alt="Single Bed"
                   fill
@@ -479,7 +479,7 @@ export default function Home() {
               </div>
               <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-blue-100 rounded-full filter blur-3xl opacity-30"></div>
             </motion.div>
-          </div>
+    </div>
         </motion.div>
       </section>
     </main>
