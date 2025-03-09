@@ -18,7 +18,7 @@ export default function Home() {
     }, 5000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [heroImages.length]);
 
   const fadeInUp = {
     initial: { opacity: 0, y: 20 },
@@ -182,7 +182,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold mb-2 text-gray-800 group-hover:text-green-600 transition-colors duration-300">Sustainable Products</h3>
-              <p className="text-gray-600">Eco-friendly furniture solutions crafted from recyclable materials</p>
+              <p className="text-gray-700">We&apos;re committed to sustainability</p>
             </motion.div>
 
             <motion.div 
@@ -198,7 +198,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold mb-2 text-gray-800 group-hover:text-blue-600 transition-colors duration-300">ESG Reporting</h3>
-              <p className="text-gray-600">Comprehensive ESG tracking and reporting for corporate compliance</p>
+              <p className="text-gray-700">We&apos;re committed to sustainability</p>
             </motion.div>
 
             <motion.div 
@@ -214,7 +214,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold mb-2 text-gray-800 group-hover:text-yellow-600 transition-colors duration-300">Carbon Tracking</h3>
-              <p className="text-gray-600">Real-time carbon footprint monitoring and reduction strategies</p>
+              <p className="text-gray-700">We&apos;re committed to sustainability</p>
             </motion.div>
 
             <motion.div 
@@ -230,7 +230,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold mb-2 text-gray-800 group-hover:text-purple-600 transition-colors duration-300">Corporate Solutions</h3>
-              <p className="text-gray-600">Tailored sustainability programs for enterprise needs</p>
+              <p className="text-gray-700">We&apos;re committed to sustainability</p>
             </motion.div>
           </div>
         </motion.div>

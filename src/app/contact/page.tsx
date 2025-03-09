@@ -46,7 +46,7 @@ export default function Contact() {
       } else {
         setSubmitStatus('error');
       }
-    } catch (error) {
+    } catch {
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -118,7 +118,7 @@ export default function Contact() {
               Get in Touch
             </h1>
             <p className="text-gray-600 mb-8">
-              Fill out the form below and we'll get back to you within 24 hours.
+              Fill out the form below and we&apos;ll get back to you within 24 hours.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -188,7 +188,7 @@ export default function Contact() {
 
               <div>
                 <label htmlFor="interest" className="block text-sm font-medium text-gray-700 mb-2">
-                  I'm interested in *
+                  I&apos;m interested in *
                 </label>
                 <select
                   id="interest"
